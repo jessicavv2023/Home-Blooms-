@@ -28,9 +28,16 @@ body {
 .nav-link:hover {
   color: #80ab73 !important;
 }
+#navColor {
+  background-color: #fbd437 !important;
+}
 /* Card About Us  */
 .cardColor {
-  background-color: #80ab73;
+  background-color: #80ab73 !important;
+}
+#mb-33 {
+  background-color: #80ab73 !important;
+  border-color: #80ab73;
 }
 .img-fluid {
   /* max-width: -webkit-fill-available;
@@ -42,9 +49,9 @@ body {
   margin-left: 21%;
 }
 .mb-3 {
-  background-color: #80ab73;
+  /* background-color: #80ab73; */
   margin-top: 50px;
-  border-color: #80ab73;
+  /* border-color: #80ab73; */
 }
 
 /* nav en contac.html */
