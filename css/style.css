@@ -92,9 +92,9 @@ body {
   box-shadow: 7px 7px 0 0 #ac8ee0;
   border-radius: 10px;
   padding: 10px;
-  justify-items: center;
+  /* justify-items: center;
   justify-content: center;
-  display: inline-grid;
+  display: inline-grid; */
 }
 
 .card-group > .card {
@@ -122,10 +122,22 @@ div div a {
   flex-direction: row;
   justify-content: center;
 }
-.artcle {
+.SectionArtitle {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+}
+/* breakpoints */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .SectionArtitle {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .SectionArtitle {
+    display: flex;
+    flex-direction: column;
+  }
 }
 /* from de contacto  */
 .formColor {
@@ -161,11 +173,4 @@ iframe {
   width: -webkit-fill-available;
   height: 335px;
   padding: 10px;
-}
-@media (min-width: 768px) {
-  .artcle {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
 }
