@@ -52,7 +52,7 @@ const loadPlants = async () => {
         const button = document.createElement("button");
         button.type = "button";
         button.className = "btn btn-primary";
-        button.textContent = "Buy";
+        button.textContent = "Add to Cart";
 
         cardBody.appendChild(plantName);
         cardFooter.appendChild(button);

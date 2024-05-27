@@ -9,24 +9,28 @@ body {
   background-color: #fbd437 !important;
 }
 .navbar-brand {
-  color: #ac8ee0;
-  font-family: "Young Serif", serif;
+  color: #ac8ee0 !important;
+  font-family: "Young Serif", serif !important;
 }
 .navbar-nav {
-  color: #80ab73;
+  color: #80ab73 !important;
 }
 .nav-link {
-  color: #ac8ee0;
+  color: #ac8ee0 !important;
 }
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link.show {
-  color: #ac8ee0;
+  color: #ac8ee0 !important;
 }
 .navbar-brand:hover {
-  color: #80ab73;
+  color: #80ab73 !important;
 }
 .nav-link:hover {
-  color: #80ab73;
+  color: #80ab73 !important;
+}
+/* nav en contac.html */
+.bg-body-tertiary {
+  background-color: #fbd437 !important;
 }
 /* titulo */
 .contenedorh1 {
@@ -147,6 +151,9 @@ div div a {
   .SectionArtitle {
     display: flex;
     flex-direction: column;
+  }
+  #plantas-container {
+    width: 54% !important;
   }
 }
 /* from de contacto  */
