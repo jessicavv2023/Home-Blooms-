@@ -1,0 +1,171 @@
+body {
+  background-color: #80ab73;
+}
+.BodyClass {
+  background-color: #80ab73;
+}
+/* nav */
+.bg-body-tertiary {
+  background-color: #fbd437 !important;
+}
+.navbar-brand {
+  color: #ac8ee0;
+  font-family: "Young Serif", serif;
+}
+.navbar-nav {
+  color: #80ab73;
+}
+.nav-link {
+  color: #ac8ee0;
+}
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: #ac8ee0;
+}
+.navbar-brand:hover {
+  color: #80ab73;
+}
+.nav-link:hover {
+  color: #80ab73;
+}
+/* titulo */
+.contenedorh1 {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 150%;
+  min-height: 50vh;
+  width: 100%;
+}
+#h1 {
+  font-family: "Young Serif", serif;
+  color: #fbd437;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 150%;
+  min-height: 50vh;
+  width: 100%;
+}
+.card-img-top {
+  height: 61%;
+}
+/* footer */
+
+.divHBfooter {
+  color: #fbd437;
+  font-family: "Young Serif", serif;
+  font-size: medium;
+  margin: 1rem;
+  display: ruby-text;
+  margin-top: 1rem;
+}
+.divfooter {
+  background-color: #ac8ee0;
+  display: grid;
+  align-content: space-evenly;
+  justify-content: space-around;
+}
+.imgfooter {
+  /* display: flex;*/
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  margin: 0.1rem;
+  margin-bottom: 1rem;
+}
+.imgredes {
+  flex-direction: row;
+}
+.footerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* margin-top: 140px; */
+}
+
+/* card blog */
+.article-NyF {
+  margin: 15px;
+  background-color: #fbd437;
+  box-shadow: 7px 7px 0 0 #ac8ee0;
+  border-radius: 10px;
+  padding: 10px;
+  justify-items: center;
+  justify-content: center;
+  display: inline-grid;
+}
+
+.card-group > .card {
+  background-color: #fbd437;
+  margin: 1rem;
+  /* box-shadow: 6px 6px 0 0 color; */
+  box-shadow: 7px 7px 0 0 #ac8ee0;
+  width: 90%;
+}
+.card-title {
+  font-family: "Young Serif", serif;
+}
+.card-text {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+}
+.card-footer {
+  border-top: var(--bs-card-border-width) solid #ac8ee0;
+}
+div div a {
+  color: #ac8ee0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.artcle {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+/* from de contacto  */
+.formColor {
+  background-color: #fbd437;
+}
+.btn-primary {
+  font-family: "Young Serif", serif !important;
+  font-size: large !important;
+  background-color: #80ab73 !important;
+  border-color: #80ab73 !important;
+}
+.btn-primary:hover {
+  background-color: #ac8ee0 !important;
+}
+.form-label {
+  font-family: "Young Serif", serif !important;
+  font-size: large !important;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.form-text {
+  margin-top: 1.25rem !important;
+  font-size: large !important;
+  color: #ac8ee0 !important;
+}
+/* Mapa Sucursal */
+iframe {
+  border: 0;
+  margin: 10px auto;
+  display: flex;
+  border-radius: 16px;
+  width: -webkit-fill-available;
+  height: 335px;
+  padding: 10px;
+}
+@media (min-width: 768px) {
+  .artcle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
