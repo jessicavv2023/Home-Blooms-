@@ -168,7 +168,7 @@ div div a {
   }
   .img-fluid {
     max-width: -webkit-fill-available;
-    height: 67%;
+    /* height: 67%; */
     margin-top: 32%;
   }
 }
