@@ -80,6 +80,8 @@ body {
 }
 .card-img-top {
   height: 61%;
+  padding: 10px;
+  border-radius: 19px;
 }
 /* footer */
 
@@ -269,4 +271,8 @@ iframe {
 .h-100 {
   background-color: #fbd437;
   height: 90% !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
