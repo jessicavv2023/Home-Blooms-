@@ -148,9 +148,14 @@ body {
 .card-text {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-decoration: none;
+  width: 82%;
 }
 .card-footer {
   border-top: var(--bs-card-border-width) solid #ac8ee0;
+}
+.card-body {
+  margin: 4px;
+  margin-top: 20px;
 }
 div div a {
   color: #ac8ee0;
